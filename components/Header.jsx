@@ -2,9 +2,10 @@ import menu from '../config/menu.js';
 import Link from 'next/link';
 import logo from '../public/logo.png';
 import Image from 'next/image.js';
-import { FiMapPin, FiPhone } from 'react-icons/fi';
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap/dist/gsap';
+import { FiMapPin, FiPhone } from 'react-icons/fi';
 
 export const Header = () => {
   const headerRef = useRef(null);
@@ -57,7 +58,7 @@ export const Header = () => {
           </Link>
           <ul className={'desktop hidden lg:flex gap-4'}>
             {menu.map(item => (
-              <li key={item.name}>
+              <li key={item.name} className={'font-bold uppercase text-xl'}>
                 <Link href={item.path}>{item.name}</Link>
               </li>
             ))}

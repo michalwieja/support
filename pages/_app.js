@@ -1,6 +1,6 @@
 import '../styles/globals.scss';
 import Head from 'next/head.js';
-import { Header } from '../components/Header.jsx';
+import { Header } from '../components/Header/Header.jsx';
 
 export default function App({
   Component,

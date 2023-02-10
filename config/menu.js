@@ -1,22 +1,30 @@
 export default [
   {
     path: '/',
-    name: 'Start'
-  },
-  {
-    path: '/about',
     name: 'O nas'
   },
   {
-    path: '/#ludzie',
-    name: 'Ludzie'
+    path: '/#szkolenia',
+    name: 'Szkolenia'
   },
   {
-    path: '/oferta',
-    name: 'Oferta'
+    path: '/#wyprawy',
+    name: 'Wyprawy'
   },
   {
-    path: '/#kontakt',
+    path: '/obozy',
+    name: 'Obozy'
+  },
+  {
+    path: '/eventy',
+    name: 'Eventy'
+  },
+  {
+    path: '/galeria',
+    name: 'Galeria'
+  },
+  {
+    path: '/kontakt',
     name: 'Kontakt'
   }
 ];

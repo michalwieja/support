@@ -1,0 +1,86 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+
+  &__top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: .5rem 0;
+  }
+
+  &__icon {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &__bottom {
+    color: white;
+    background: $blue;
+    padding: 1rem 0;
+  }
+
+  &__logo {
+    position: relative;
+    z-index: 20;
+  }
+
+  &__bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+    @media (max-width: $break-lg) {
+      position: fixed;
+      width: 100vw;
+      z-index: 10;
+      background: $blue;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      flex-direction: column;
+      align-items: center;
+      padding: 8rem 0;
+      justify-content: space-between;
+      transform: translateY(-100%);
+    }
+  }
+
+  .Kontakt {
+    background: $green;
+    padding: .875rem 2rem;
+    border-radius: 2rem;
+  }
+
+  &__link {
+    opacity: 0;
+    transform: translateY(-25);
+  }
+
+  &__burger {
+    display: none;
+    flex-direction: column;
+    gap: .5rem;
+    z-index: 20;
+
+    @media (max-width: $break-lg) {
+      display: flex;
+    }
+
+    .line {
+      width: 2rem;
+      color: white;
+      height: 2px;
+      background: white;
+    }
+  }
+}

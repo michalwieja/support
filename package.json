@@ -20,9 +20,6 @@
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.20",
-    "sass": "^1.57.1",
-    "tailwindcss": "^2.1.4"
+    "sass": "^1.57.1"
   }
 }

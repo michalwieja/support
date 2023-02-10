@@ -6,7 +6,8 @@ export default function IndexPage() {
     <Hero/>
     <div style={{
       height: '100vh',
-      backgroundColor: 'coral'
+      backgroundColor: '#245CE7',
+      opacity: .1
     }}></div>
   </>;
 }

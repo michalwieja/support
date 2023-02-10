@@ -9,6 +9,13 @@
     align-items: center;
     gap: 2rem;
     padding: .5rem 0;
+
+    @media(max-width: $break-sm) {
+      flex-direction: column;
+      gap: .5rem;
+      align-items: flex-end;
+
+    }
   }
 
   &__icon {
@@ -39,6 +46,8 @@
     align-items: center;
     gap: 2rem;
     font-size: 1rem;
+
+
     @media (max-width: $break-lg) {
       position: fixed;
       width: 100vw;
@@ -49,21 +58,32 @@
       height: 100vh;
       flex-direction: column;
       align-items: center;
-      padding: 8rem 0;
+      padding: 12rem 0;
       justify-content: space-between;
       transform: translateY(-100%);
     }
   }
 
-  .Kontakt {
-    background: $green;
-    padding: .875rem 2rem;
-    border-radius: 2rem;
-  }
-
   &__link {
-    opacity: 0;
-    transform: translateY(-25);
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background: white;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    &:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
   }
 
   &__burger {
@@ -79,7 +99,7 @@
     .line {
       width: 2rem;
       color: white;
-      height: 2px;
+      border-top: 2px solid;
       background: white;
     }
   }

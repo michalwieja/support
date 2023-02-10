@@ -2,6 +2,8 @@
   padding-top: 15vh;
   height: 100vh;
   position: relative;
+  background: url("/hero-bg.svg") no-repeat center;
+  background-size: cover;
 
   .container {
     display: flex;
@@ -15,16 +17,28 @@
     flex-direction: column;
     gap: 1rem;
     flex: 1;
+    @media (max-width: $break-md) {
+      max-width: 500px;
+    }
 
     .title {
       font-size: 3rem;
       font-weight: bold;
       color: $blue;
-
+      overflow: hidden;
     }
 
     .subtitle {
       font-weight: bold;
+      overflow: hidden;
+    }
+
+    .desc {
+      overflow: hidden;
+    }
+
+    .button {
+      overflow: hidden;
     }
   }
 
@@ -33,7 +47,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 
+    .img {
+      height: 75%;
+    }
+
+    @media (max-width: $break-md) {
+      display: none;
+    }
   }
 
   svg path {

@@ -1,0 +1,31 @@
+button {
+  outline: transparent;
+  border: none;
+  background: transparent;
+  width: fit-content;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  min-width: 180px;
+  text-transform: capitalize;
+  font-size: inherit;
+  font-family: inherit;
+  transition: $transition;
+  cursor: pointer;
+
+  &.green {
+    background: $green;
+  }
+
+  &.blue {
+    background: $blue;
+  }
+
+  &.yellow {
+    background: $yellow;
+  }
+
+  &:focus, &:hover {
+    filter: brightness(110%);
+  }
+}

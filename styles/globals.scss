@@ -4,13 +4,17 @@
 $blue: #245CE7;
 $green: #24E74E;
 $yellow: #E7AF24;
+$black: #202020;
 
 $break-sm: 600px;
 $break-md: 900px;
 $break-lg: 1200px;
 
+$transition: .3s;
+
 @import "components/Header/header";
 @import "components/Hero/hero";
+@import "components/Button/button";
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -24,9 +28,19 @@ $break-lg: 1200px;
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+
+  @media (max-width: $break-sm) {
+    font-size: 14px;
+
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
+  color: $black
 }
 
 a {
@@ -52,7 +66,21 @@ img {
 }
 
 
-//hero wave
-.hero {
+//scrollbar
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  position: absolute;
+}
 
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: $blue;
 }

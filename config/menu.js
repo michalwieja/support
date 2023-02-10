@@ -23,8 +23,4 @@ export default [
     path: '/galeria',
     name: 'Galeria'
   },
-  {
-    path: '/kontakt',
-    name: 'Kontakt'
-  }
 ];

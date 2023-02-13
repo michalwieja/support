@@ -1,6 +1,6 @@
 import { Button } from '../Button/Button.jsx';
 import Image from 'next/image.js';
-import board from '../../public/board.png';
+// import board from 'board.png';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap/dist/gsap';
 
@@ -52,7 +52,8 @@ export const Hero = () => {
           </div>
           <div className="board">
             <div className="img">
-              <Image src={board} height={600}/>
+              {/*<Image src={board} height={600}/>*/}
+              <img src="board.png" alt="board"/>
             </div>
           </div>
         </div>

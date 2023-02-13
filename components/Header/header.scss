@@ -1,20 +1,23 @@
 .header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 20;
 
   &__top {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 2rem;
-    padding: .5rem 0;
+    background: white;
 
-    @media(max-width: $break-sm) {
-      flex-direction: column;
-      gap: .5rem;
-      align-items: flex-end;
-
+    .container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 2rem;
+      padding: .5rem 0;
+      @media(max-width: $break-sm) {
+        display: none;
+        flex-direction: column;
+        gap: .5rem;
+        align-items: flex-end;
+      }
     }
   }
 

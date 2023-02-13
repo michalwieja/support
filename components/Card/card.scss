@@ -1,0 +1,58 @@
+.training-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.card {
+  display: flex;
+  background-color: $blue;
+  border-radius: 2rem;
+  overflow: hidden;
+  color: white;
+  max-height: 400px;
+
+  &__reverse {
+    flex-direction: row-reverse;
+  }
+
+  .image-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    background: $blue;
+  }
+
+  .image-wrapper {
+    width: 50%;
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .content {
+    width: 50%;
+    padding: 2rem;
+
+    .title {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media(max-width: $break-md) {
+  .card {
+    flex-direction: column;
+    max-height: unset;
+
+    &__reverse {
+      flex-direction: column;
+    }
+
+    .image-wrapper, .content {
+      width: 100%;
+    }
+  }
+
+}

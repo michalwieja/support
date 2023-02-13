@@ -4,6 +4,7 @@
 $blue: #245CE7;
 $green: #24E74E;
 $yellow: #E7AF24;
+$pink: #E724BD;
 $black: #202020;
 
 $break-sm: 600px;
@@ -15,6 +16,9 @@ $transition: .3s;
 @import "components/Header/header";
 @import "components/Hero/hero";
 @import "components/Button/button";
+@import "components/About/about";
+@import "components/SectionTitle/section-title";
+@import "components/Card/card";
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -30,9 +34,12 @@ $transition: .3s;
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 15vh;
 
   @media (max-width: $break-sm) {
     font-size: 14px;
+    scroll-padding-top: 20vh;
 
   }
 }
@@ -63,6 +70,10 @@ img {
   width: calc(min(1320px, 90%));
   margin-inline: auto;
   overflow-x: hidden;
+}
+
+.section {
+  padding: 2rem 0;
 }
 
 

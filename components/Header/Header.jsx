@@ -45,9 +45,11 @@ export const Header = () => {
 
   return (
     <div className="header" ref={headerRef}>
-      <div className="header__top container">
-        <div className="header__icon"><FiMail/>support@lepszastronawody.pl</div>
-        <div className="header__icon"><FiPhone/>+48 123 456 789</div>
+      <div className="header__top">
+        <div className="container">
+          <div className="header__icon"><FiMail/>support@lepszastronawody.pl</div>
+          <div className="header__icon"><FiPhone/>+48 123 456 789</div>
+        </div>
       </div>
       <div className="header__bottom">
         <div className="container">
@@ -60,7 +62,7 @@ export const Header = () => {
             <ul className="header__nav">
               {menu.map(item => (
                 <li key={item.name} className="header__link">
-                  <Link href={item.path}>{item.name}</Link>
+                  <Link href={item.path} scroll={false}>{item.name}</Link>
                 </li>
               ))}
               <li>

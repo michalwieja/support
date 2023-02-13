@@ -1,0 +1,12 @@
+.section-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $blue
+  }
+}

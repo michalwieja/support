@@ -1,6 +1,6 @@
 export default [
   {
-    path: '/',
+    path: '/#onas',
     name: 'O nas'
   },
   {
@@ -12,15 +12,15 @@ export default [
     name: 'Wyprawy'
   },
   {
-    path: '/obozy',
+    path: '/#obozy',
     name: 'Obozy'
   },
   {
-    path: '/eventy',
+    path: '/#eventy',
     name: 'Eventy'
   },
   {
-    path: '/galeria',
+    path: '/#galeria',
     name: 'Galeria'
   },
 ];

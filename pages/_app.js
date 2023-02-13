@@ -1,5 +1,4 @@
 import '../styles/globals.scss';
-import '../styles/globals.css';
 import Head from 'next/head.js';
 import { Header } from '../components/Header/Header.jsx';
 

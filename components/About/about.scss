@@ -1,6 +1,55 @@
 .about {
-  height: 100vh;
   background: rgba($blue, .1);
+  position: relative;
 
-  
+  &::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: url("/before.svg") no-repeat top;
+    background-size: cover;
+    z-index: -1;
+    opacity: .5;
+  }
+
+  &__content {
+    padding: 2rem 0;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__video {
+    position: absolute;
+    opacity: 0;
+    max-height: 600px;
+  }
+
+  &__text {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media (max-width: $break-lg) {
+    &__video {
+      position: relative;
+      width: 100%;
+    }
+
+    &__text {
+      width: 100%;
+      left: 0;
+      padding-top: 2rem;
+      padding-left: 0;
+    }
+
+    &__content {
+      display: block;
+    }
+  }
 }

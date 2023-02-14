@@ -7,7 +7,7 @@ export default function IndexPage() {
   return (
     <>
       <Hero/>
-      {/*<About/>*/}
+      <About/>
       <Training/>
 
     </>

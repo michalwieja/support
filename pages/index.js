@@ -5,9 +5,7 @@ import {Expeditions} from "../components/Expeditions/Expeditions";
 import {Camp} from "../components/Camp/Camp";
 import {Footer} from "../components/Footer/Footer";
 
-export default function IndexPage() {
-
-  return (
+const IndexPage = () => (
     <>
       <Hero/>
       <About/>
@@ -16,5 +14,6 @@ export default function IndexPage() {
       <Camp/>
       <Footer/>
     </>
-  );
-}
+  )
+
+export default IndexPage

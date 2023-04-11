@@ -42,8 +42,7 @@ html {
 
   @media (max-width: $break-sm) {
     font-size: 14px;
-    scroll-padding-top: 20vh;
-
+    scroll-behavior: unset;
   }
 }
 

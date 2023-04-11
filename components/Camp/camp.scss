@@ -1,5 +1,7 @@
 .camp {
   position: relative;
+  display: flex;
+  flex-direction: column;;
 }
 
 .camp-bg {
@@ -7,8 +9,15 @@
   height: 100%;
   position: absolute;
   background: rebeccapurple;
+  background: url("/oboz.jpg") no-repeat center;
   top: 0;
   left: 0;
+
+  @media (max-width: $break-md) {
+    position: static;
+    height: 200px;
+    width: 100%;
+  }
 }
 
 .camp-content {
@@ -18,11 +27,13 @@
 
   & > div {
     flex: 1;
-  }
-}
 
-.camp-foto {
-  padding-left: -400px;
+    @media (max-width: $break-md) {
+      &:nth-child(1) {
+        display: none;
+      }
+    }
+  }
 }
 
 .camp-text {

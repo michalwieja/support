@@ -1,9 +1,9 @@
 import {SectionTitle} from "../SectionTitle/SectionTitle";
 
 export const Camp = () => (
-    <div className='section'>
+    <div className='section' id='obozy'>
         <SectionTitle title="Obozy" subtitle="Rodzinny obóz sup"/>
-        <div className='camp' id='obozy'>
+        <div className='camp' >
 
             <div className='camp-bg'/>
             <div className='container'>

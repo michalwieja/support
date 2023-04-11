@@ -6,7 +6,7 @@ import {FiMail, FiPhone} from "react-icons/fi";
 import {FaFacebookMessenger, FaFacebook, FaInstagram} from "react-icons/fa";
 
 export const Footer = () => (
-    <footer className='footer'>
+    <footer className='footer' id={'footer'}>
         <div className="container">
             <div className="footer__content">
                 <div className='footer__logo'>

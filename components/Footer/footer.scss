@@ -9,15 +9,26 @@
     display: flex;
     padding: 4rem 0;
 
+    @media (max-width: $break-md) {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
     & > div {
       flex: 1;
-      align-self: end;
+      align-self: center;
     }
   }
 
   &__logo {
     .logo {
       width: 100px;
+    }
+  }
+
+  &__menu {
+    @media (max-width: $break-md) {
+      display: none;
     }
   }
 

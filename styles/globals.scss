@@ -19,6 +19,9 @@ $transition: .3s;
 @import "components/About/about";
 @import "components/SectionTitle/section-title";
 @import "components/Card/card";
+@import "components/Footer/footer";
+@import "components/Modal/modal";
+@import "components/Camp/camp";
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -53,10 +56,6 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-ul {
-  list-style: none;
 }
 
 img {
@@ -95,3 +94,8 @@ img {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
   background-color: $blue;
 }
+
+ul {
+  list-style: none
+}
+

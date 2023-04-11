@@ -16,10 +16,6 @@ export default [
     name: 'Obozy'
   },
   {
-    path: '/#eventy',
-    name: 'Eventy'
-  },
-  {
     path: '/#galeria',
     name: 'Galeria'
   },

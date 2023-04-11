@@ -1,0 +1,42 @@
+.footer {
+  background: $yellow;
+  margin-top: 1rem;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  &__content {
+    display: flex;
+    padding: 4rem 0;
+
+    & > div {
+      flex: 1;
+      align-self: end;
+    }
+  }
+
+  &__logo {
+    .logo {
+      width: 100px;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  &__contact {
+    & > div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 1rem;
+  }
+}

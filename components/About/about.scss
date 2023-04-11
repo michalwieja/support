@@ -1,6 +1,8 @@
 .about {
   background: rgba($blue, .1);
   position: relative;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 
   &::before {
     position: absolute;
@@ -10,6 +12,37 @@
     background-size: cover;
     z-index: -1;
     opacity: .5;
+  }
+
+  &__team {
+    display: flex;
+  }
+
+  &__member{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+
+    .circle {
+      width: 33%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: $yellow;
+    }
+
+    .name {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .desc {
+      font-style: italic;
+    }
+
   }
 
   &__content {

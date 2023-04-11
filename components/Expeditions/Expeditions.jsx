@@ -2,15 +2,15 @@ import { SectionTitle } from '../SectionTitle/SectionTitle.jsx';
 import { Card } from '../Card/Card.jsx';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger.js';
-import config from '../../config/training'
+import config from '../../config/expeditions'
 
-export const Training = () => {
+export const Expeditions = () => {
 
   gsap.registerPlugin(ScrollTrigger);
   return (
-    <div id="szkolenia" className="section">
+    <div id="wyprawy" className="section">
       <div className="container">
-        <SectionTitle title="Szkolenia" subtitle="Zobacz czego się nauczysz"/>
+        <SectionTitle title="Wyprawy" subtitle="Tutaj pływamy"/>
         <div className="training-cards">
           {config.map((el,index) => (
            <Card background={el.bg} image={`${el.image}.jpg`} title={el.title} key={el.title} reverse={index%2}>

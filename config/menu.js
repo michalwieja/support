@@ -15,8 +15,4 @@ export default [
     path: '/#obozy',
     name: 'Obozy'
   },
-  {
-    path: '/#galeria',
-    name: 'Galeria'
-  },
 ];

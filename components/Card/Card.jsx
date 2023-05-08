@@ -29,6 +29,25 @@ export const Card = ({
           start: 'top 80%',
         }
       });
+        gsap.from('.title', {
+            y: 20,
+            opacity:0,
+            duration: 1.5,
+            scrollTrigger: {
+                trigger: '.card',
+                start: 'top 80%',
+            }
+        });
+        gsap.from('.desc', {
+            y: 20,
+            opacity:0,
+            duration: 1.5,
+            delay:.5,
+            scrollTrigger: {
+                trigger: '.card',
+                start: 'top 80%',
+            }
+        });
 
     }, scopeRef); // <- IMPORTANT! Scopes selector text
 

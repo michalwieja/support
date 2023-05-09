@@ -49,9 +49,10 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    overflow: hidden;
 
     .img {
-      height: 75%;
+      height: 100%;
     }
 
     @media (max-width: $break-md) {
@@ -76,8 +77,11 @@
   svg path:nth-child(4) {
     animation-delay: 4s
   }
-
 }
+
+.spline-watermark {
+
+  display: none;}
 
 @keyframes pathAnim {
   0% {

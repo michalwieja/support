@@ -17,14 +17,14 @@
   &__team {
     display: flex;
 
-    @media (max-width:$break-sm) {
+    @media (max-width: $break-sm) {
       flex-direction: column;
       gap: 2rem;
     }
 
   }
 
-  &__member{
+  &__member {
     flex: 1;
     display: flex;
     align-items: center;
@@ -38,6 +38,13 @@
       aspect-ratio: 1;
       border-radius: 50%;
       background: $yellow;
+      overflow: hidden;
+
+      .image {
+        border-radius: 50%;
+        position: relative;
+        left: 5px;
+      }
     }
 
     .name {

@@ -3,7 +3,8 @@ import {useEffect, useRef} from "react";
 import {gsap} from 'gsap';
 
 
-export const Member = ({name, desc, handleMore, color}) => {
+export const Member = ({member, handleMore}) => {
+  const {name, quote, img}=member
     const scopeRef = useRef();
 
     useEffect(() => {
@@ -26,11 +27,13 @@ export const Member = ({name, desc, handleMore, color}) => {
     }, []); // <- empty dependency Array so it doesn't re-run on every render
     return (
         <div className="about__member" ref={scopeRef}>
-            <div className="circle"></div>
+            <div className="circle">
+              <img className='image' src={img} alt={name}/>
+            </div>
             <div className="name">{name}</div>
-            <div className="desc">{desc}</div>
+            <div className="desc">{quote}</div>
             <div className="more">
-                <Button onClick={handleMore} label='Więcej' color={color}/>
+                <Button onClick={handleMore} label='Więcej' color={'blue'}/>
             </div>
         </div>
     )

@@ -30,9 +30,7 @@ export const About = () => {
                     <div className="about__team">
                         {members.map(el => <Member
                             key={el.id}
-                            name={el.name}
-                            desc={el.quote}
-                            color='blue'
+                            member={el}
                             handleMore={() => handleMore(el)}
                         />)}
                     </div>

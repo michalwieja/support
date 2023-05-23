@@ -28,9 +28,11 @@ export const Modal = ({content, handleClose, visible}) => {
                         <div className='modal-close-icon' onClick={handleClose}>&times;</div>
                     </div>
                     <div className="modal-content">
-                        <div>foto</div>
-                        <div>{content?.name}</div>
-                        <div>{content?.desc}</div>
+                        <div className='modal-image-wrapper'>
+                          <img className='modal-image' src={content?.img} alt={content?.name}/>
+                        </div>
+                        <h2>{content?.name}</h2>
+                      <div>{content?.Desc}</div>
                     </div>
                 </div>
             </div>

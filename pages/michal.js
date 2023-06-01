@@ -1,4 +1,3 @@
-import {Hero} from "../components/Hero/Hero";
 import {Footer} from "../components/Footer/Footer";
 import Image from "next/image";
 
@@ -12,6 +11,7 @@ const daniel = () => (
           height={0}
           sizes="100vw"
           style={{width: '100%', position: 'relative'}}
+          placeholder="blur"
         />
       </div>
       <div className="container member-text">

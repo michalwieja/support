@@ -1,11 +1,18 @@
 import {Hero} from "../components/Hero/Hero";
 import {Footer} from "../components/Footer/Footer";
+import Image from "next/image";
 
 const daniel = () => (
   <>
     <div className='member'>
-      <div>
-        <img src="michal_big.jpg" alt=""/>
+      <div className='member-img-wrapper'>
+        <Image
+          src={'/michal_big.jpg'}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{width: '100%', position: 'relative'}}
+        />
       </div>
       <div className="container member-text">
         <p>Facet po czterdziestce, lubię wszelakie wyprawy, szczególnie te dziwne typu: przejście przez bagna,
@@ -24,7 +31,6 @@ const daniel = () => (
       </div>
     </div>
     <Footer/>
-
   </>
 )
 

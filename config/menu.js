@@ -13,6 +13,6 @@ export default [
   },
   {
     path: '/#obozy',
-    name: 'Obozy'
+    name: 'Obozy i eventy'
   },
 ];

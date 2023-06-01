@@ -1,0 +1,21 @@
+.member {
+  padding-top: 15vh;
+  overflow-x: hidden;
+  @media(max-width: $break-sm) {
+    padding-top: 10vh;
+  }
+  .member-text{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .member-img-wrapper {
+    width: 100vw;
+    height: 400px;
+
+    @media(max-width: $break-sm) {
+      height: 200px;    }
+  }
+}

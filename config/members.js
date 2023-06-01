@@ -25,8 +25,8 @@ export default [
         znajduję w wyprawach, zabawach na desce i pływaniu po górskich rzekach.
         W 2020 r wraz z Michałem postanowiliśmy wypłynąć supami na szersze wody i tak powstał
         Support lepsza strona wody- miejsce gdzie każdy znajdzie coś dla siebie.</p></div>,
-    img: 'daniel.jpg',
-    route:'daniel'
+    img: '/daniel.jpg',
+    route: 'daniel'
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export default [
         półfinału MŚ ICF w Gdyni gdzie na desce pompowanej mogłem ścigać się z najlepszymi zawodnikami z całego świata.
         Zapraszam do wspólnego odkrywania tej formy spędzania czasu z naturą.</p>
     </div>,
-    img: 'michal.jpg',
-    route:'michal'
+    img: '/michal.jpg',
+    route: 'michal'
   },
 ]

@@ -37,26 +37,23 @@ export const Hero = () => {
                 i większe wyprawy
               </div>
             </div>
-            <div className="desc">
-              <div>Z nami możesz odkryć nowe horyzonty i poczuć wolność na wodzie. Nasze
-                wypożyczalnie
-                oferują najlepsze deski SUP na rynku, aby zapewnić Ci niezapomniane doświadczenie.
-                Dołącz do nas i zacznij swoją przygodę na wodzie już dziś!
-              </div>
-            </div>
-            <div className="button">
-              <div>
-                <Button label="więcej" color="yellow"/>
-              </div>
-            </div>
+            {/*<div className="desc">*/}
+            {/*  <div>Z nami możesz odkryć nowe horyzonty i poczuć wolność na wodzie. Nasze*/}
+            {/*    wypożyczalnie*/}
+            {/*    oferują najlepsze deski SUP na rynku, aby zapewnić Ci niezapomniane doświadczenie.*/}
+            {/*    Dołącz do nas i zacznij swoją przygodę na wodzie już dziś!*/}
+            {/*  </div>*/}
+            {/*</div>*/}
+            {/*<div className="button">*/}
+            {/*  <div>*/}
+            {/*    <Button label="więcej" color="yellow"/>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
           <div className="board">
             <div className="img">
               {/*<Image src={board} height={600}/>*/}
-              {/*<img src="board.png" alt="board"/>*/}
-              <iframe src='https://my.spline.design/untitled-e1d55466b55bdb7c6659c0393fbf47e5/'
-                      frameBorder='0'
-                      width='100%' height='100%'></iframe>
+              <img src="board.png" alt="board"/>
             </div>
           </div>
         </div>

@@ -11,7 +11,12 @@
   border-radius: 2rem;
   overflow: hidden;
   color: white;
-  max-height: 400px;
+
+  .desc > div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
 
   &__reverse {
     flex-direction: row-reverse;

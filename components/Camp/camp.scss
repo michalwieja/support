@@ -1,7 +1,13 @@
 .camp {
   position: relative;
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
+}
+
+.camp-subtitle {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.25rem;
 }
 
 .camp-bg {

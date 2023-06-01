@@ -60,7 +60,14 @@
     }
 
     @media (max-width: $break-md) {
-      display: none;
+      //display: none;
+      position: absolute;
+      opacity: 15%;
+      z-index: -1;
+      height: 100vh;
+      .img{
+        height: 60%;
+      }
     }
   }
 

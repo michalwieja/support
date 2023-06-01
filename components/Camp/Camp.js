@@ -5,7 +5,7 @@ export const Camp = () => (
     <SectionTitle title="Obozy i eventy"/>
     <div className='camp-subtitle'>Rodzinny obóz SUP</div>
     <div className='camp'>
-      <div className='camp-bg'/>
+      <div className='camp-bg camp-bg--1'/>
       <div className='container'>
         <div className="camp-content">
           <div/>

@@ -7,7 +7,7 @@ const daniel = () => (
     <div className='member'>
       <div className='member-img-wrapper'>
         <Image
-          src={'/michal_big.jpg'}
+          src={'/michal_big-3.jpg'}
           width={0}
           height={0}
           sizes="100vw"

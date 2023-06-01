@@ -13,14 +13,14 @@ export default [
             'Wyprawa dla osób posiadających dobre umiejętności pływania na supie.'    },
     {
         title: "Warta",
-        image: 6,
+        image: 'warta',
         bg: '#E7AF24',
         desc: 'Piękna rzeka o łatwym i umiarkowanym przebiegu, idealna na rodzinne spływy. Różne\n' +
             'odcinki, długość spływu dostosowana do konkretnego uczestnika.\n' +
             'Spływ dla każdego poziomu umiejętności'    },
     {
         title: "3 jeziora",
-        image: 7,
+        image: '3-jeziora',
         bg: '#E724BD',
         desc: 'Spływ pokazujący bogactwo akwenów północnej części Śląska. Płyniemy przez trzy\n' +
             'zalewy połączone rzeką Czarną Przemszą- rzeka o charakterze łowiska górskiego- występują tu\n' +

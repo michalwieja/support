@@ -9,7 +9,7 @@ export default [
   },
   {
     title: "Doskonalenie",
-    image: 1,
+    image: 'doskonalenie',
     bg: '#12A431',
     desc: 'Umiesz już stać na desce i odpychać się wiosłem od wody ale chcesz udoskonalić swoje\n' +
       'umiejętności. Nauczyć się jak prawidłowo pracować wiosłem, poznać różne sposoby wiosłowania\n' +
@@ -34,7 +34,7 @@ export default [
   },
   {
     title: "Freestyle",
-    image: 3,
+    image: 'freestyle',
     bg: '#E724BD',
     desc: 'Szkolenie z zakresu gier, zabaw na desce mające na celu poprawę koordynacji, równowagi i\n' +
       'doskonalenie techniki pływania. W czasie szkolenia poznasz również podstawowe tricki\n' +
@@ -42,7 +42,7 @@ export default [
   },
   {
     title: "Freestyle dla zaawansowanych",
-    image: 4,
+    image: 'freestyle-2',
     bg: '#245CE7',
     desc: 'Do tego szkolenia zapraszamy osoby posiadajace dobre umiejętności pływania na supie. Na tym\n' +
       'etapie poznasz zaawansowane tricki freestylowe, dowiesz się jak pracować balansem, używać\n' +

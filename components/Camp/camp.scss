@@ -20,7 +20,12 @@
 
   &--1 {
     background: url("/oboz-2.jpg") no-repeat center;
-
+  }
+  &--2 {
+    background: url("/gap-weekend.jpg") no-repeat center;
+  }
+  &--3 {
+    background: url("/oboz.jpg") no-repeat center;
   }
 
   @media (max-width: $break-md) {

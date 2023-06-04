@@ -1,12 +1,14 @@
 import {Footer} from "../components/Footer/Footer";
 import Image from "next/image";
+import michal_big from '../assets/michal_big.jpg'
 
-const daniel = () => (
+
+const michal = () => (
   <>
     <div className='member'>
       <div className='member-img-wrapper'>
         <Image
-          src={'/michal_big-3.jpg'}
+          src={michal_big}
           width={0}
           height={0}
           sizes="100vw"
@@ -34,4 +36,4 @@ const daniel = () => (
   </>
 )
 
-export default daniel
+export default michal;

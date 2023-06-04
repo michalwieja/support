@@ -28,7 +28,7 @@ export const Camp = () => (
     </div>
     <div className='camp-subtitle'>SUP GAP Weekend</div>
     <div className='camp'>
-      <div className='camp-bg'/>
+      <div className='camp-bg camp-bg--2'/>
       <div className='container'>
         <div className="camp-content">
           <div/>
@@ -47,7 +47,7 @@ export const Camp = () => (
     </div>
     <div className='camp-subtitle'>SUP Fiesta</div>
     <div className='camp'>
-      <div className='camp-bg'/>
+      <div className='camp-bg camp-bg--3'/>
       <div className='container'>
         <div className="camp-content">
           <div/>

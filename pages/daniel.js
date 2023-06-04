@@ -1,17 +1,18 @@
-import {Hero} from "../components/Hero/Hero";
 import {Footer} from "../components/Footer/Footer";
 import Image from "next/image";
+import daniel_big from "../assets/daniel_big.jpg"
 
 const daniel = () => (
   <>
     <div className='member'>
       <div  className='member-img-wrapper'>
         <Image
-          src={'/daniel_big.jpg'}
+          src={daniel_big}
           width={0}
           height={0}
           sizes="100vw"
           style={{width: '100%', position: 'relative'}}
+          placeholder="blue"
         />
       </div>
       <div className="container member-text">

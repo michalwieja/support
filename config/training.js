@@ -19,7 +19,7 @@ export default [
   },
   {
     title: "Ratownictwo",
-    image: 2,
+    image: 'ratownictwo',
     bg: '#E7AF24',
     desc: 'Aby bezpiecznie pływać powinieneś posiadać wiedzę i umiejętności radzenia sobie w każdej\n' +
       'wodnej sytuacji. To szkolenie da ci wiedzę na temat:' +

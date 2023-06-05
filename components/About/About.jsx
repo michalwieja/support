@@ -1,32 +1,16 @@
 import {SectionTitle} from '../SectionTitle/SectionTitle.jsx';
-import {useState} from 'react';
 import {Member} from "../Member/Member";
-import {Modal} from "../Modal/Modal";
 import members from "../../config/members";
-import {Transition} from "react-transition-group";
 import {useRouter} from "next/router";
 
 export const About = () => {
-  const [modalContent, setModalContent] = useState(null)
-  const [modalVisible, setModalVisible] = useState(false)
   const router = useRouter();
 
   const handleMore = (el) => {
-    // setModalContent(null)
-    // setModalVisible(true)
-    // setModalContent(el)
     router.push(el.route)
   }
 
   return (<>
-      <Transition
-        in={modalVisible}
-        timeout={200}
-        mountOnEnter
-        unmountOnExit
-      >
-        <Modal content={modalContent} handleClose={() => setModalVisible(false)} visible={modalVisible}/>
-      </Transition>
       <div className="about section" id="onas">
         <SectionTitle title="O nas" subtitle="Kim jesteśmy?"/>
         <div className="container">

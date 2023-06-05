@@ -42,9 +42,7 @@ const daniel = () => (
         </p>
       </div>
     </div>
-
     <Footer/>
-
   </>
 )
 

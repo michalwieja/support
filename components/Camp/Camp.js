@@ -1,14 +1,14 @@
-import {SectionTitle} from "../SectionTitle/SectionTitle";
+import { SectionTitle } from "../SectionTitle/SectionTitle";
 
 export const Camp = () => (
   <div className='section' id='obozy'>
-    <SectionTitle title="Obozy i eventy"/>
+    <SectionTitle title="Obozy i eventy" />
     <div className='camp-subtitle'>Rodzinny obóz SUP</div>
     <div className='camp'>
-      <div className='camp-bg camp-bg--1'/>
+      <div className='camp-bg camp-bg--1' />
       <div className='container'>
         <div className="camp-content">
-          <div/>
+          <div />
           <div className='camp-text'>
             <p> Wakacyjna oferta dla rodzin chcących spędzić aktywnie czas w pięknym przyrodniczo terenie.</p>
             <p>W programie dwa bloki szkoleniowe dziennie, spływ rzeką, zajęcia kreatywne dla dzieci w
@@ -28,10 +28,10 @@ export const Camp = () => (
     </div>
     <div className='camp-subtitle'>SUP GAP Weekend</div>
     <div className='camp'>
-      <div className='camp-bg camp-bg--2'/>
+      <div className='camp-bg camp-bg--2' />
       <div className='container'>
         <div className="camp-content">
-          <div/>
+          <div />
           <div className='camp-text'>
             <p>Pięć dni w czasie długiego czerwcowego weekendu, które spędzamy na Kaszubach nad jeziorem Wdzydze. Czas
               mocnego chilloutu, relaksu i niezmąconego spokojnego pływania w gronie dorosłych miłośników SUP.</p>
@@ -47,10 +47,10 @@ export const Camp = () => (
     </div>
     <div className='camp-subtitle'>SUP Fiesta</div>
     <div className='camp'>
-      <div className='camp-bg camp-bg--3'/>
+      <div className='camp-bg camp-bg--3' />
       <div className='container'>
         <div className="camp-content">
-          <div/>
+          <div />
           <div className='camp-text'>
             <p>Duże całodzienne, rodzinne spotkanie na podsumowanie sezonu. Spotykamy się nad jeziorem Przeczyckim w
               gościnie u MarinaSurf. </p>

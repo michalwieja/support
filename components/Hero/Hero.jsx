@@ -1,6 +1,3 @@
-import {Button} from '../Button/Button.jsx';
-// import Image from 'next/image.js';
-// import board from 'board.png';
 import {useEffect, useRef} from 'react';
 import {gsap} from 'gsap/dist/gsap';
 
@@ -37,22 +34,9 @@ export const Hero = () => {
                 i większe wyprawy
               </div>
             </div>
-            {/*<div className="desc">*/}
-            {/*  <div>Z nami możesz odkryć nowe horyzonty i poczuć wolność na wodzie. Nasze*/}
-            {/*    wypożyczalnie*/}
-            {/*    oferują najlepsze deski SUP na rynku, aby zapewnić Ci niezapomniane doświadczenie.*/}
-            {/*    Dołącz do nas i zacznij swoją przygodę na wodzie już dziś!*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-            {/*<div className="button">*/}
-            {/*  <div>*/}
-            {/*    <Button label="więcej" color="yellow"/>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
           </div>
           <div className="board">
             <div className="img">
-              {/*<Image src={board} height={600}/>*/}
               <img src="sup.svg" alt="board"/>
             </div>
           </div>

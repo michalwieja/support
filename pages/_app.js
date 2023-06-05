@@ -15,7 +15,7 @@ const App = ({ Component, pageProps }) => (
       />
       <meta
         property="og:image"
-        content="/oboz-2.jpg"
+        content="https://lepszastronawody.pl/oboz-2.jpg"
       />
       <link rel="icon" href="/favicon.ico" />
     </Head>

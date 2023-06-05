@@ -47,8 +47,8 @@ export const Header = () => {
         <div className="header" ref={headerRef}>
             <div className="header__top">
                 <div className="container">
-                    <div className="header__icon"><FiMail/>support@lepszastronawody.pl</div>
-                    <div className="header__icon"><FiPhone/>+48 123 456 789</div>
+                    <div><a className='header__icon' href="mailto:support@lepszastronawody.pl"><FiMail/>support@lepszastronawody.pl</a></div>
+                    <div><a className='header__icon' href="tel:601 954 322"><FiPhone/>601 954 322</a></div>
                 </div>
             </div>
             <div className="header__bottom">

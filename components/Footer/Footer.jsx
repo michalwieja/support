@@ -27,13 +27,14 @@ export const Footer = () => (
                     </ul>
                 </div>
                 <div className='footer__contact'>
-                    <div><FiMail size={24}/>support@lepszastronawody.pl</div>
-                    <div><FaFacebookMessenger size={24}/>messanger</div>
-                    <div><FiPhone size={24}/>123 345 456</div>
+                    <a href="mailto:support@lepszastronawody.pl"><FiMail size={24}/>support@lepszastronawody.pl</a>
+                    {/* <a ><FaFacebookMessenger size={24}/>messanger</a> */}
+                    <a href="tel:601 954 322"><FiPhone size={24}/>601 954 322</a>
                 </div>
                 <div className='footer__socials'>
-                    <FaFacebook size={40}/>
-                    <FaInstagram size={40}/>
+                    <a href="https://www.facebook.com/profile.php?id=100063516281058" target="_blank" rel="noreferrer"><FaFacebook size={40}/></a>
+                    <a href="https://instagram.com/support_lepsza_strona_wody?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer"><FaInstagram size={40}/></a>
+                   
                 </div>
             </div>
         </div>

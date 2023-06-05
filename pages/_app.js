@@ -8,14 +8,14 @@ const App = ({ Component, pageProps }) => (
       <title>Support - Lepsza strona wody</title>
       <meta name="description" content="Lepsza strona wody" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="Social Title for Cool Page" />
+      <meta property="og:title" content="Support" />
       <meta
         property="og:description"
-        content="Support - Lepsza strona wody"
+        content="Lepsza strona wody"
       />
       <meta
         property="og:image"
-        content="oboz-2.jpg"
+        content="/oboz-2.jpg"
       />
       <link rel="icon" href="/favicon.ico" />
     </Head>

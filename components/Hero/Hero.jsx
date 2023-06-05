@@ -53,7 +53,7 @@ export const Hero = () => {
           <div className="board">
             <div className="img">
               {/*<Image src={board} height={600}/>*/}
-              <img src="board.png" alt="board"/>
+              <img src="sup.svg" alt="board"/>
             </div>
           </div>
         </div>

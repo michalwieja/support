@@ -12,7 +12,7 @@ const daniel = () => (
           height={0}
           sizes="100vw"
           style={{width: '100%', position: 'relative'}}
-          placeholder="blue"
+          placeholder="blur"
         />
       </div>
       <div className="container member-text">

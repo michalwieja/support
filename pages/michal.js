@@ -1,20 +1,13 @@
-import {Footer} from "../components/Footer/Footer";
-import Image from "next/image";
-import michal_big from '../assets/michal_big.jpg'
-
+import { Footer } from "../components/Footer/Footer";
 
 const michal = () => (
   <>
     <div className='member'>
       <div className='member-img-wrapper'>
-        <Image
-          src={michal_big}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{width: '100%', position: 'relative'}}
-          placeholder="blur"
-        />
+        <picture>
+          <source media="(min-width:500px)" srcset="./michal_big.jpg" />
+          <img src="./michal_small.jpg" alt="Michal" />
+        </picture>
       </div>
       <div className="container member-text">
         <p>Facet po czterdziestce, lubię wszelakie wyprawy, szczególnie te dziwne typu: przejście przez bagna,
@@ -32,7 +25,7 @@ const michal = () => (
           Zapraszam do wspólnego odkrywania tej formy spędzania czasu z naturą.</p>
       </div>
     </div>
-    <Footer/>
+    <Footer />
   </>
 )
 

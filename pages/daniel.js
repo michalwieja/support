@@ -1,19 +1,13 @@
-import {Footer} from "../components/Footer/Footer";
-import Image from "next/image";
-import daniel_big from "../assets/daniel_big.jpg"
+import { Footer } from "../components/Footer/Footer";
 
 const daniel = () => (
   <>
     <div className='member'>
-      <div  className='member-img-wrapper'>
-        <Image
-          src={daniel_big}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{width: '100%', position: 'relative'}}
-          placeholder="blur"
-        />
+      <div className='member-img-wrapper'>
+        <picture>
+          <source media="(min-width:500px)" srcset="./daniel_big.jpg" />
+          <img src="./daniel_small.jpg" alt="Daniel" />
+        </picture>
       </div>
       <div className="container member-text">
         <p>Daniel Wierzbicki- jestem absolwentem Akademii Wychowania Fizycznego w Katowicach,
@@ -42,7 +36,7 @@ const daniel = () => (
         </p>
       </div>
     </div>
-    <Footer/>
+    <Footer />
   </>
 )
 

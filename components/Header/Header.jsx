@@ -1,7 +1,5 @@
 import menu from '../../config/menu.js';
 import Link from 'next/link';
-import logo from '../../public/logo.png';
-import Image from 'next/image.js';
 
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap/dist/gsap';
@@ -50,7 +48,7 @@ export const Header = () => {
           <div className="header__bottom-wrapper">
             <Link href={'/'}>
               <div className="header__logo">
-                <Image src={logo} height={60} alt="logo" />
+                <img src={'./logo.png'} height={60} alt="logo" />
               </div>
             </Link>
             <ul className="header__nav">

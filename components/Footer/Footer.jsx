@@ -1,6 +1,4 @@
-import logo from "../../public/logo.png";
 import Link from "next/link";
-import Image from "next/image";
 import menu from "../../config/menu";
 import { FiMail, FiPhone } from "react-icons/fi";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
@@ -12,7 +10,7 @@ export const Footer = () => (
         <div className='footer__logo'>
           <div className="logo">
             <Link href={'/'}>
-              <Image src={logo} alt="logo" />
+              <img src={'./logo.png'} alt="logo" />
             </Link>
           </div>
           <div className="slogan">Lepsza strona wody</div>

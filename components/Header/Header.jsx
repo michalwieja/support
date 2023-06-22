@@ -48,7 +48,7 @@ export const Header = () => {
           <div className="header__bottom-wrapper">
             <Link href={'/'}>
               <div className="header__logo">
-                <img src={'./logo.png'} height={60} alt="logo" />
+                <img src={'./logo.png'} alt="logo" />
               </div>
             </Link>
             <ul className="header__nav">

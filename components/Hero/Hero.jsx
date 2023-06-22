@@ -36,9 +36,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="board">
-            <div className="img">
               <img src="sup.svg" alt="board"/>
-            </div>
           </div>
         </div>
       </div>
